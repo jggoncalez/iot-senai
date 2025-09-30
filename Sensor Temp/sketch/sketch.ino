@@ -9,6 +9,7 @@ float temperatura;
 DHT dht(3, DHT11);
 void setup() {
 Serial.begin(9600);// inicializando o monitor serial
+pin
 dht.begin();// Inicializando o sensor
 }
 
